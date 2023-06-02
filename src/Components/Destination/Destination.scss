@@ -154,3 +154,89 @@
         }
     }
 }
+
+@media (max-width: 1288px) {
+    .destination {
+        .moons--container {
+            left: 0;
+
+            .title {
+                margin-left: 5%;
+
+                .title-number {}
+            }
+
+            .data {
+                top: 60px;
+
+                .moons {
+                    top: 70%;
+                    left: 27%;
+                    margin-bottom: 0;
+                    height: 0;
+
+                    ul {
+                        width: 100%;
+                        column-gap: 30%;
+
+                        li {}
+                    }
+                }
+
+                .moons-desc {
+                    flex-direction: column;
+                    height: 50%;
+                    align-items: center;
+
+                    .moons-img {
+                        // height: 200px;
+                        width: auto;
+
+                        img {
+                            top: 5%;
+                            left: 0;
+                        }
+                    }
+
+                    .moons-data {
+                        top: 80%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding-bottom: 50px;
+                        width: 90%;
+
+                        .name {
+                            text-align: center;
+                        }
+
+                        .desc {
+                            text-align: center;
+                        }
+
+                        .line {
+                            text-align: center;
+                        }
+
+                        .dist-times {
+
+                            .distance {
+                                h5 {}
+                            }
+
+                            .time {
+                                h5 {}
+                            }
+
+                            p {}
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+// @media (max-width: 982px) {
+// }
